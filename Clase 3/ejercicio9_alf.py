@@ -1,0 +1,5 @@
+fecha = (input("please type your date of birth in (DD/MM/YYYY): "))
+fecha = fecha.split("/")
+print(fecha[0])
+print(fecha[1])
+print(fecha[2])
